@@ -1,0 +1,482 @@
+body {
+	/*font-family: 'Charmonman', cursive;*/
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #4649ad;
+}
+.container {
+	width: 1200px
+	margin: 0 auto;
+	z-index: 10;
+	position: relative;
+}
+ul, li {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.header {
+	background: #4649ad url('../img/1619.jpg') center top no-repeat;
+	padding: 50px 0;
+	overflow-x: hidden;
+	position: relative;
+}
+.nav {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+	-ms-align-items: center;
+	align-items: center;
+}
+.logo {
+	margin-right: 160px;
+	margin-left: 50px;
+}
+.btn_header {
+
+}
+.btn {
+	font-weight: 900;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 100px;
+	width: 140px;
+	padding: 10px 0;
+	display: block;
+	text-decoration: none;
+	margin-left: auto;
+	transition: .3s linear
+}
+.btn:hover {
+	background-color: #fff;
+	color: #4649ad;
+}
+.menu_item {
+	margin-right: 31px;
+}
+.menu {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.menu_item a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 4px 0;
+	width: 50px;
+	height: 50px;
+	border-bottom: 1px solid transparent;
+	transition: .1s linear;
+}
+.menu_item a:hover {
+	padding: 2px 0;
+	border-bottom: 1px solid #fff;
+}
+.dn {
+	display: none;
+}
+.offer_list {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.offer {
+	width: 90%;
+	margin: 0 auto;
+	color: #fff;
+	margin-top: 270px;
+}
+.offer_item {
+	margin-right: 40px;
+}
+.offer_content {
+	margin-left: 50px;
+}
+.offer_title {
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: .02em;
+	font-weight: bold;
+	margin-top: 45px;
+}
+.offer_text {
+
+}
+.btn_act {
+	display: block;
+	text-align: center;
+	width: 240px;
+	background-color: #2ee3cd;
+	border-radius: 100px;
+	-webkit-box-shadow: 0 4px 30px rgba(8, 70, 63, 0.51);
+	box-shadow: 0 4px 30px rgba(8, 70, 63, 0.51);
+	font-weight: 900;
+	font-size: 18px;
+	color: #4448aa;
+	padding: 20px 0;
+	text-decoration: none;
+	-webkit-transition: .2s linear;
+	-o-transition: .2s linear;
+	transition: .2s linear;
+	margin-top: 50px;
+	margin-bottom: 377px;
+}
+.btn_act:hover {
+	background-color: #4448aa;
+	color: #2ee3cd;
+}
+.pic {
+	background: url('../img/1619_2.png') right center no-repeat;
+	position: absolute;
+	top: 0%;
+	left: 6%;
+	width: 100%;
+	margin-top: 100px;
+	height: 820px;
+	z-index: 0;
+}
+.features {
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 130px;
+}
+.features_all {
+	margin-left: 50px;
+}
+.features h2 {
+	font-size: 30px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+h2 {
+	margin: 0;
+}
+.features h2::after {
+	content: ' ';
+	display: block;
+	width: 87px;
+	height: 7px;
+	border-radius: 10px;
+	background-color: #4648ad;
+	margin-top: 5px;
+	margin-bottom: 90px;
+}
+h3 {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+.merits {
+
+}
+.merits_item {
+	padding-left: 177px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	position: relative;
+}
+.merits_item_first {
+	background: url('../img/component.jpg') left center no-repeat;
+}
+.merits_item_second {
+	background: url('../img/component-2.png') left center no-repeat;
+	margin-left: 130px;
+}
+.merits_item_third {
+	margin-left: 260px;
+	background: url('../img/component-3.png') left center no-repeat;
+}
+.merits_title {
+	font-weight: 900;
+	font-size: 20px;
+	letter-spacing: .05em;
+	margin-bottom: 20px;
+}
+.merits_link {
+	font-size: 14px;
+	color: #2ee3cd;
+	margin-top: 20px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.merits_item_first::after {
+	content: ' ';
+	display: block;
+	background: url('../img/vector.jpg');
+	width: 92px;
+	height: 106px;
+	position: absolute;
+	top: 160px;
+	left: 10px;
+}
+
+.merits_item_second::after {
+	content: ' ';
+	display: block;
+	background: url('../img/vector.jpg');
+	width: 92px;
+	height: 106px;
+	position: absolute;
+	top: 160px;
+	left: 5px;
+}
+.form_body {
+	background-color: #4649ad;
+	border-radius: 40px;
+	-webkit-box-shadow: 4px 15px 60px  rgba(70,73,173,.8);
+	box-shadow: 4px 15px 60px  rgba(70,73,173,.8);
+	border: 1px solid rgba(70,73,173,.8);
+	width: 340px;
+	height: 390px;
+	padding: 62px 30px;
+}
+
+div, form {
+	box-sizing: border-box
+	color: #fff;
+}
+.form_title {
+	font-weight: 900;
+	font-size: 20px;
+	letter-spacing: .04em;
+	margin-bottom: 30px;
+	color: #fff;
+}
+.form_input {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	padding: 15px 0;
+	display: block;
+	width: 100%;
+	padding-left: 10px;
+	color: #fff;
+}
+.form_input:focus {
+	outline: none;
+}
+.form_input::placeholder {
+	color: #aaa;
+}
+.btn_act_now {
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	outline: none;
+}
+..btn_act_now:focus {
+	outline: none;
+}
+.features_wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media (max-width: 2700px) {
+	.pic {
+		left: 3%;
+	}
+}
+@media (max-width: 1500px) {
+	.pic {
+		left: 10%;
+	}
+}
+@media (max-width: 1288px) {
+	.features_wrapper {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.form_body {
+		margin-top: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (max-width: 1120px) {
+	.pic {
+		left: 6%;
+		-webkit-background-size: 600px 600px;
+		background-size: 600px 600px;
+	}
+}
+@media (max-width: 942px) {
+	.menu {
+		display: block;
+	}
+	.logo {
+		margin-right: 20px;
+	}
+
+}
+@media (max-width: 872px) {
+		.pic {
+			left: 0%;
+			-webkit-background-size: 400px 400px;
+			background-size: 400px 400px;
+	}
+	.features_wrapper {
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+	}
+	.merits_item_first::after {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+	.merits_item_second {
+		margin-left: 0;
+	}
+	.merits_item_second::after {
+		display: none;
+		width: 0;
+		height: 0;
+	}
+	.merits_item_third {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.pic {
+		top: -19%;		
+
+	}
+	.offer {
+		margin-top: 300px;
+	}
+}
+
+@media (max-width: 524px) {
+	.nav {
+		display: block;
+	}
+	.btn {
+		margin-left: 0;
+		margin-left: 50px;
+		margin-top: 30px;
+		display: block;
+	}
+	.menu {
+		margin-left: 50px;
+		margin-top: 20px;
+	}
+	.menu_item {
+		margin: 0;
+	}
+	.pic {
+		top: -7%;
+		left: 0%;
+	}
+	.offer_title {
+		font-size: 30px;
+	}
+	.offer_item {
+		margin-right: 20px;
+	}
+	.btn_act {
+		width: 180px;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 500px) {
+	.dn {
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.features {
+		text-align: center;
+	}
+	.features_wrapper {
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.merits {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.merits_item_first {
+	padding-left: 0;
+	background: none;}
+
+	.merits_item_second {
+	padding-left: 0;
+	background: none;
+}
+	.merits_item_third {
+	padding-left: 0;
+	background: none;
+}
+.merits_item_title {
+	padding-top: 20px;
+}
+.features_all {
+	margin-left: 0px;
+}
+.features h2::after {
+	content: ' ';
+	display: block;
+	width: 50%;
+	height: 7px;
+	border-radius: 10px;
+	background-color: #4648ad;
+	margin-top: 5px;
+	margin-bottom: 90px;
+	margin: 0 auto;
+}
+img {
+	max-width: 100%;
+}
+.form_body {
+	background-color: #4649ad;
+	border-radius: 40px;
+	-webkit-box-shadow: 4px 15px 60px  rgba(70,73,173,.8);
+	box-shadow: 4px 15px 60px  rgba(70,73,173,.8);
+	border: 1px solid rgba(70,73,173,.8);
+	width: 60%;
+	height: 390px;
+}
+.btn_act_now {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+}
+
